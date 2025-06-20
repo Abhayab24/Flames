@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday Card</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f2f8ff;
+    }
+
+    .card {
+      border: 2px solid #57a6f8;
+      width: 300px;
+      height: 450px;
+      border-radius: 12px;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      color: #2c6fbe;
+    }
+
+    .card h2 {
+      font-size: 22px;
+      margin-top: 20px;
+    }
+
+    .circle {
+      margin: 30px auto;
+      width: 120px;
+      height: 120px;
+      border: 2px solid #57a6f8;
+      border-radius: 50%;
+    }
+
+    .text {
+      margin: 20px 0;
+      color: #2c6fbe;
+      font-size: 14px;
+    }
+
+    .link {
+      margin-top: 30px;
+      color: red;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .link::after {
+      content: " →";
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>birth day Card</h2>
+    <div class="circle"></div>
+    <div class="text">Text text text text text</div>
+    <a href="#" class="link">LINK</a>
+  </div>
+
+</body>
+</html>
