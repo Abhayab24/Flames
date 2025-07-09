@@ -1,12 +1,12 @@
-import React from 'react';
-import ProfileCard from "../components/ProfileCard"; // ❌ Removed extra space after the quote
+import React from "react";
+import ProfileCard from "../components/ProfileCard";
 
 function Home(){
-  return (
-    <div>
-      <ProfileCard /> 
-    </div>
-  );
+    return(
+        <div>
+            <ProfileCard/>
+        </div>
+    )
 }
 
 export default Home;
