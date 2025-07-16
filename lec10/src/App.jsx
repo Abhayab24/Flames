@@ -27,7 +27,7 @@ function App() {
 
 
   return (
-   <div className='min-h-screen flex item-center justify-center bg-gray-100 p-6'>
+   <div className='min-h-screen flex item-center justify-center bg-gray-200 p-6'>
       <form
         onSubmit={handleSubmit}
         className='bg-white shadow-lg p-8 rounded-xl w-full max-w-md space-y-4'
